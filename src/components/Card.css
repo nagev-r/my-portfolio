@@ -1,0 +1,29 @@
+.card {
+  background-color: none;
+  padding: 1.5rem;
+  backdrop-filter: blur(4px);
+  color: rgb(0, 0, 0);
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: var(--spacing-md);
+  
+}
+
+.card img {
+  max-width: 100%;   /* never exceed card’s width */
+  height: auto;      /* keep aspect ratio */
+  border-radius: 0.5rem; /* optional rounding */
+  display: block;    /* removes inline gaps */
+}
+
+
+.card.v2 {
+    background-color: rgba(255, 228, 196, 0.301);
+    border: 2px solid black;
+}
+
+.card.v3 {
+    background-color: rgba(157, 189, 202, 0.521);
+    border: 2px solid black;
+}

@@ -1,0 +1,40 @@
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  padding: var(--spacing-lg);
+}
+
+.hero-container {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: left;
+  z-index: 1;
+  max-width: 600px;
+}
+
+.hero-title {
+  text-align: right;
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  color: var(--color-text);
+  margin-bottom: var(--spacing-xs);
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: var(--color-text);
+}
+
+.hero-description {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-top: var(--spacing-xs);
+}
+
+
+.scroll-spacer {
+  height: 1000px; /* full viewport height */
+  background-color: rgba(0, 0, 0, 0.144);
+}

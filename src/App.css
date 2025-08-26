@@ -1,0 +1,50 @@
+:root {
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  --max-width: 62.5rem; /* 1000px */
+
+  --font-body: 'system-ui', Arial, monospace; /* not used yet*/
+  --font-heading: 'sans-serif', Arial;
+  --font-links: 'sans-serif', Arial;
+  
+  --color-text: #000000;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background-color: rgba(42, 194, 194, 0.116);
+}
+
+.content-area {
+  padding: var(--spacing-lg);
+  padding-top: calc(var(--spacing-xl) * 2);
+  background-color: rgba(159, 165, 144, 0.404);
+}
+
+
+.site-footer {
+  margin: auto;
+  padding: var(--spacing-lg);
+  text-align: center;
+  font-size: 0.9rem;
+  background-color: #ddd8cf; /*Add a texture */
+  color: var(--color-text);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+}

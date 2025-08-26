@@ -35,6 +35,30 @@
 
 
 .scroll-spacer {
-  height: 1000px; /* full viewport height */
+  height: 500px; /* full viewport height */
   background-color: rgba(0, 0, 0, 0.144);
 }
+
+.download-btn {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 2px;
+  background-color: #b9ab6a86; /* button color */
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-family: var(--font-links);
+  letter-spacing: 0.05em;
+  text-decoration: none; /* removes underline */
+  transition: background-color 0.2s ease-in-out, transform 0.1s;
+}
+
+.download-btn:hover {
+  background-color: #4fa1822d; /* darker on hover */
+  transform: translateY(-2px);
+}
+
+.download-btn:active {
+  background-color: #91927f; /* pressed state */
+  transform: translateY(0);
+}
+
